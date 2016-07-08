@@ -17,7 +17,7 @@ class WebServiceModule extends AbstractSummerModule{
     }
 
     @Override
-    protected List<NamedBean> mutableBeansConfigure() {
+    protected List<NamedBean> reloadableBeansConfigure() {
         return fromPackage(new PackageScan(packageName: "me.chaopeng.sample.handlers"))
     }
 

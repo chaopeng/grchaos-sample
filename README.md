@@ -1,4 +1,4 @@
-This is a sample project to show how to build a hotswapable webservices base on [GrChaos](https://github.com/chaopeng/grchaos) and [chaosrx]((https://github.com/chaopeng/chaosrx).
+This is a sample project to show how to build a hotswapable webservices base on [GrChaos](https://github.com/chaopeng/grchaos) and [chaosrx](https://github.com/chaopeng/chaosrx).
 
 1. import into idea
 2. add a run configure: mainClass=me.chaopeng.grchaos.application.GrChaosApplicationMain, module=grchaos-sample-lib_main
